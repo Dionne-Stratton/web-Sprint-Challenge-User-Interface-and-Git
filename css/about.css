@@ -97,8 +97,8 @@ header {
 }
 
 .top-content .text-container {
-    padding: 2% 1%;
-    padding-bottom: 20px;
+		padding: 2% 0;
+		margin: 0 2% 20px;
 }
 
 .middle-content {
@@ -106,7 +106,6 @@ header {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .middle-content .text-container {
@@ -115,14 +114,31 @@ header {
     padding-bottom: 20px;
 }
 
+.middle-content .text-container h2 {
+	margin-top: 2%;
+}
+
+.middle-content .button {
+margin: 3% 0;
+border: 1px solid black;
+padding: 2% 10%;
+display: inline-block;
+border-radius: 10px;
+text-decoration: none;
+color: black;
+margin-bottom: 20px;
+background-color: white;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+		border-top: 1px dashed black;
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+		padding: 2% 0;
 }
 
 .bottom-content .text-container:last-child {
